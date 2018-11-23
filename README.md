@@ -8,7 +8,11 @@ This produces a 'native' macOS application for AWS Cloud9 using the [nativefier]
 
 ## How to Run
 
-Go to your Cloud9 instance in your browser and get the URL for it. It will look something like `https://us-west-2.console.aws.amazon.com/cloud9/ide/abc123`. 
+First, install `nativefier` and its dependencies:
+
+	npm install
+	
+Next, go to your Cloud9 instance in your browser and get the URL for it. It will look something like `https://us-west-2.console.aws.amazon.com/cloud9/ide/abc123`. 
 
 Put the URL into a file named `cloud9-url.txt` and then run `./run.sh`.
 
